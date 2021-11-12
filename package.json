@@ -1,0 +1,14 @@
+{
+  "name": "games-children",
+  "version": "1.0.0",
+  "scripts": {
+    "build:css": "tailwindcss build tailwind.css -o public/style.css"
+  },
+  "main": "",
+  "repository": "git@github.com:konegishi/games-children.git",
+  "author": "konegishi <k.negishi0705@gmail.com>",
+  "license": "",
+  "dependencies": {
+    "tailwindcss": "^2.2.19"
+  }
+}
