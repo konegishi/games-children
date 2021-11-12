@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <title>Game Children</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="style-tailwind.css" />
     <script src="https://kit.fontawesome.com/3beb8ce8ad.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
@@ -16,42 +16,59 @@
     <header class="w-full bg-white border-b-2 border-gray-100">
       <span class="text-2xl text-gray-800 pl-4">ゲームサイト</span>
       <h1 class='bg-gray-200 h-screen w-screen'>
-        <div class="h-5/6 grid grid-cols-8 grid-rows-5 gap-4 p-4">
-          <!-- 画像を見つけるまでの仮置き（imgに置換する） -->
+        <div class="h-4/5 grid grid-cols-8 grid-rows-5 gap-4 p-4">
+          <!-- ゲーム画像を見つけるまでの仮置き（imgに置換する） -->
+          <i class="far fa-envelope col-start-5 col-end-6 row-start-1 fa-4x p-2" data-aos="fade" data-aos-delay="800"></i>
           <div
-            class="bg-gray-500 h-20 w-32 col-start-5 col-end-6 row-start-1"
+            class="bg-gray-500 h-20 w-20 col-start-5 col-end-6 row-start-1"
             data-aos="fade"
-            data-aos-delay="400"
+            data-aos-delay="1800"
           ></div>
+          <i class="far fa-envelope col-start-2 col-end-3 row-start-2 fa-4x p-2" data-aos="fade" data-aos-delay="400"></i>
           <div
-            class="bg-gray-500 h-20 w-32 col-start-1 col-end-2 row-start-2"
+            class="bg-gray-500 h-20 w-20 col-start-2 col-end-3 row-start-2"
             data-aos="fade"
-            data-aos-delay="100"
+            data-aos-delay="1400"
           ></div>
           <img
             class="col-start-4 col-end-6 row-start-3 z-40"
             src="./child.svg"
             alt="子供のイラスト"
           ></img>
+          <i class="far fa-envelope col-start-7 col-end-8 row-start-3 fa-4x p-2" data-aos="fade" data-aos-delay="600"></i>
           <div
-            class="bg-gray-500 h-20 w-32 col-start-6 col-end-7 row-start-3"
+            class="bg-gray-500 h-20 w-20 col-start-7 col-end-8 row-start-3"
             data-aos="fade"
-            data-aos-delay="200"
+            data-aos-delay="1600"
           ></div>
+          <i class="far fa-envelope col-start-1 col-end-2 row-start-4 fa-4x p-2" data-aos="fade" data-aos-delay="300"></i>
           <div
-            class="bg-gray-500 h-20 w-32 col-start-2 col-end-3 row-start-4"
+            class="bg-gray-500 h-20 w-20 col-start-1 col-end-2 row-start-4"
             data-aos="fade"
-            data-aos-delay="40"
+            data-aos-delay="1300"
           ></div>
+          <i class="far fa-envelope col-start-5 col-end-6 row-start-5 fa-4x p-2" data-aos="fade" data-aos-delay="1000"></i>
           <div
-            class="bg-gray-500 h-20 w-32 col-start-5 col-end-6 row-start-5"
+            class="bg-gray-500 h-20 w-20 col-start-5 col-end-6 row-start-5"
             data-aos="fade"
-            data-aos-delay="600"
+            data-aos-delay="2000"
           ></div>
         </div>
-        <div class='flex flex-col h-1/6 items-center'>
-          <span class='text-2xl text-center text-gray-800 mb-2'>さあ、たくさんのゲームを見てみよう！</span>
-          <i class="fas fa-angle-down text-5xl animate-bounce"></i>
+        <div class='flex flex-col items-center h-1/5 items-center text-xl text-center text-gray-800'>
+          <span class='mb-2'>
+            ゲームについてたくさんの<br />
+            お手紙が届いています！
+          </span>
+          <!-- <span class='mb-2'>お手紙が届いています！</span> -->
+          <!-- <span class='text-2xl text-center text-gray-800'>ゲームについてのたくさんの</span> -->
+          <!-- <span class='text-2xl text-center text-gray-800 mb-2'>お手紙が届いています！</span> -->
+          <!-- <span class='text-2xl text-center text-gray-800 mb-2'>たくさんのお手紙が届いています！</span> -->
+          <button class='bg-gray-500 rounded text-white flex flex-row items-center'>
+            <i class="far fa-envelope-open mx-2 my-3"></i>
+            <span class='mr-2'>開いて確認する</span>  
+          </button>
+          <!-- <i class="far fa-envelope-open fa-2x animate-bounce"></i> -->
+          <!-- <i class="fas fa-angle-down text-5xl animate-bounce"></i> -->
         </div>
       </h1>
     </header>
