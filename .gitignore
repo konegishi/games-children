@@ -1,2 +1,10 @@
 # dependencies
 /node_modules
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+yarn-debug.log*
+yarn-error.log*
